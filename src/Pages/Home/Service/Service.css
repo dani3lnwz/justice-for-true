@@ -1,0 +1,11 @@
+.service{
+    border:1px solid lightslategray;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    box-shadow: 0rem;
+    box-shadow: 10px 10px 5px rgba(52,56,59,0.25);
+}
+.service img{
+    width: 100%;
+}
