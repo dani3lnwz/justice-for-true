@@ -1,13 +1,17 @@
 import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate, Link, useLocation } from 'react-router-dom';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from './../../../firebase.init';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Login = () => {
     const emailRef = useRef('');
     const passwordRef = useRef('');
-    const navigate = useNavigate()
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    let from = location.state?.from?.pathname || "/"
 
     const [
         signInWithEmailAndPassword,
@@ -17,7 +21,7 @@ const Login = () => {
     ] = useSignInWithEmailAndPassword(auth);
 
     if(user){
-        navigate('/home')
+        navigate(from, {replace:true});
     }
 
     const handleSubmit = event =>{
@@ -36,15 +40,13 @@ const Login = () => {
             <h2 className='text-danger text-center mt-2'>Please Login</h2>
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
+                    
                     <Form.Control ref={emailRef} type="email" placeholder="Enter email" required/>
-                    <Form.Text className="text-muted">
-                        We'll never share your email with anyone else.
-                    </Form.Text>
+                    
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>Password</Form.Label>
+                    
                     <Form.Control ref={passwordRef} type="password" placeholder="Password" required/>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
@@ -55,6 +57,7 @@ const Login = () => {
                 </Button>
             </Form>
             <p>New to My site ? <Link to="/register" className='text-danger pe-auto text-decoration-none' onClick={navigateRegister}> Please register</Link></p>
+            <SocialLogin></SocialLogin>
         </div>
     );
 };
