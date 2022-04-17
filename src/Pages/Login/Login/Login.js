@@ -12,7 +12,7 @@ const Login = () => {
     const location = useLocation();
 
     let from = location.state?.from?.pathname || "/"
-
+    let errorElement;
     const [
         signInWithEmailAndPassword,
         user,
@@ -23,6 +23,10 @@ const Login = () => {
     if(user){
         navigate(from, {replace:true});
     }
+    if (error){
+        errorElement = <p className='text-danger'>Error: {error?.message}</p>
+}
+
 
     const handleSubmit = event =>{
         event.preventDefault();
@@ -56,6 +60,7 @@ const Login = () => {
                     Submit
                 </Button>
             </Form>
+            {errorElement}
             <p>New to My site ? <Link to="/register" className='text-danger pe-auto text-decoration-none' onClick={navigateRegister}> Please register</Link></p>
             <SocialLogin></SocialLogin>
         </div>
