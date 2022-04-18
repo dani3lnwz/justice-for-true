@@ -4,7 +4,7 @@ import sleeping from '../../../images/404.jpg'
 const NotFound = () => {
     return (
         <div>
-            <h2 className='text-primary text-center'>Lazy Gimation</h2>
+            <h2 className='text-primary text-center'>Loosers...</h2>
             <img className='w-100' src={sleeping} alt="" />
         </div>
     );

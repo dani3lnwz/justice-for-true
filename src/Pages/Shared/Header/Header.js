@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../../../images/logo/logo-1.png'
 import { useAuthState } from 'react-firebase-hooks/auth';
@@ -19,21 +19,16 @@ const Header = () => {
   <Navbar.Brand as={Link} to="/">
       <div className='d-flex'>
           <img src={logo} height={60} alt="" />
-          <p className='mt-3 '>I am a megician</p>
+          <p className='mt-3 '>Justice For True.</p>
       </div>
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto mx-">
-      <Nav.Link href="home#services">Services</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
-      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-      </NavDropdown>
+      <Nav.Link href="home#services">My Services</Nav.Link>
+      <Nav.Link href="home#experts">Other Services</Nav.Link>
+      <Nav.Link href="blogs">Blogs</Nav.Link>
+     
     </Nav>
     <Nav>
       <Nav.Link as={Link} to="about">About</Nav.Link>
