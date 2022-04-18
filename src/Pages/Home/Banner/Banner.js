@@ -20,8 +20,8 @@ const Banner = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Always Be Pattein</h3>
+          <p>Catchy Lawyer Slogans Ideas & Taglines</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -32,8 +32,8 @@ const Banner = () => {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Alwasy Be Loyal</h3>
+          <p>Good Lawyer has Great Knowledge About The Law, Not The Judge</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -44,9 +44,9 @@ const Banner = () => {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Be  Good Person</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            The Confidence to Proceed
           </p>
         </Carousel.Caption>
       </Carousel.Item>
