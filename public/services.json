@@ -1,44 +1,44 @@
 [
     {
         "id": 1,
-        "name": "CARDIO EXERCISE",
-        "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        "name": "Criminal Cases",
+        "price": "20,000$",
+        "description": "Criminal cases involve enforcing public codes of behavior, which are codified in the laws of the state.  In criminal cases, the government prosecutes individuals for violating those laws (in other words, for allegedly committing a crime).  Punishment in criminal cases can include fines, community service, probation, prison, a",
+        "img": "https://img.freepik.com/free-vector/partnership-deal-closing-negotiations_3446-644.jpg?t=st=1650261914~exp=1650262514~hmac=6e5472b3a23e2925cd7fb906866578deca3852bbc3e8fb1eee2acb4e74d6653b&w=740"
     },
     {
         "id": 2,
-        "name": "YOGA PROLONGS YOUTH",
-        "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://img.freepik.com/free-photo/muscular-man-doing-push-ups-one-hand_7502-4775.jpg?w=740&t=st=1650134379~exp=1650134979~hmac=81a4c874534fc15e4098de897e8b7c0c6cb910f8304f7b6343944677b4d006e0"
+        "name": "Civil Cases",
+        "price": "15,000$",
+        "description": "Civil cases involve conflicts between people or institutions such as businesses, typically over money.  A civil case usually begins when one person or business (the plaintiff) claims to have been harmed by the actions of another person or business (the defendant) and asks the court for relief by filing a complaint and starting a court case.",
+        "img": "https://img.freepik.com/free-vector/senior-age-business-man-woman-couple_3446-687.jpg?t=st=1650262631~exp=1650263231~hmac=82d11c125b8d23a187e2f3a7f3cf41a984eca5cf737817af101709f25a1b227d&w=740"
     },
     {
         "id": 3,
-        "name": "MARTIAL ARTS TO INCREASE REFLEXES",
-        "price": "150",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://images.unsplash.com/photo-1585892478726-d26363dbf9e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        "name": "Pre-Filling ",
+        "price": "5,000$",
+        "description": "During the pre-filing stage, the dispute arises and the parties make demands, try to negotiate a resolution, and prepare for the possibility of a court action..",
+        "img": "https://img.freepik.com/free-vector/judge-online-service-platform-court-worker-stand-justice-law-judge-traditional-black-robe-hearing-case-sentencing-isolated-flat-vector-illustration_613284-114.jpg?t=st=1650263070~exp=1650263670~hmac=9378c43c4c4d901e1bb6f580f7c82740b9aaf98a6190a71dd5474e6e5ff3d4b6&w=740"
     },
     {
         "id": 4,
-        "name": "FREE HAND EXERCISE",
-        "price": "180",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+        "name": "Post Discovery/Pre-trail cases",
+        "price": "20,000$",
+        "description": "Pre-trail cases involve enforcing public codes of behavior, which are codified in the laws of the state.  In criminal cases, the government prosecutes individuals for violating those laws (in other words, for allegedly committing a crime).  Punishment in criminal cases can include fines, community service, probation, prison, a",
+        "img": "https://img.freepik.com/free-vector/office-lawyers-orthogonal-compositions_1284-20949.jpg?t=st=1650263070~exp=1650263670~hmac=72c7952e95ce8ef08f7054daa6628b2952f7b9283188f7c1bc2ef8c10b7700d8&w=826"
     },
     {
         "id": 5,
-        "name": "FAT BURNING EXERCISE",
-        "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://images.unsplash.com/photo-1517130038641-a774d04afb3c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        "name": "Initial-Pleading Cases",
+        "price": "4,000$",
+        "description": "Initial pleading.  During this stage, one party files papers (called a complaint) to start the court action, and the other party files some type of response (an answer or maybe a motion).",
+        "img": "https://img.freepik.com/free-vector/business-people-teamwork-uniform-black-suit-clothes_40876-2641.jpg?t=st=1650263070~exp=1650263670~hmac=11164bbe11061d48aadca91d64acbb383cade52ba0558db52d2abbd0e656a278&w=740"
     },
     {
         "id": 6,
-        "name": "BODYBUILDING EXERCISE",
-        "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-        "img": "https://images.unsplash.com/photo-1606335543042-57c525922933?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=875&q=80"
+        "name": "Trail-Cases",
+        "price": "5,000$",
+        "description": "Trial.  During this stage, the case is actually heard by the judge or a jury (which could last for a couple of hours or a couple of months, depending on the complexity of the case); witnesses are examined, evidence is presented, and the case is eventually decided and a judgment entered.",
+        "img": "https://img.freepik.com/free-vector/notary-clients-during-execution-documents-office-interior-isometric_1284-26617.jpg?t=st=1650263070~exp=1650263670~hmac=8346c443408644cb11aec1723972bebcf699f28bbc9707b761ce1c50e0282a5c&w=740"
     }
 ]
